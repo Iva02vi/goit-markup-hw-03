@@ -19,7 +19,7 @@ button {
   cursor: pointer;
 }
 
-.main-title {
+.hero-title {
   color: #fff;
   text-align: center;
   font-size: 56px;
@@ -89,12 +89,12 @@ button {
   color: #404bbf;
 }
 
-/* Main section */
-.main-container {
+/* Hero section */
+.hero-container {
   background: #2e2f42;
 }
 
-.main-cont-button {
+.hero-cont-button {
   background: #4d5ae5;
   color: #fff;
   font-weight: 500;
@@ -102,9 +102,9 @@ button {
   line-height: 1.5;
 }
 
-.main-cont-button:hover,
-.main-cont-button:focus,
-.main-cont-button:active {
+.hero-cont-button:hover,
+.hero-cont-button:focus,
+.hero-cont-button:active {
   background: #404bbf;
 }
 
