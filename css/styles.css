@@ -7,16 +7,38 @@ body {
   letter-spacing: 0.02em;
 }
 
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
 a {
   text-decoration: none;
 }
 
 ul {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
+}
+
+img {
+  display: block;
+  object-fit: cover;
 }
 
 button {
   cursor: pointer;
+}
+
+.container {
+  max-width: 1440px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 156px;
+  margin-right: 156px;
 }
 
 .hero-title {
@@ -92,6 +114,7 @@ button {
 /* Hero section */
 .hero-container {
   background: #2e2f42;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .hero-cont-button {
@@ -106,6 +129,19 @@ button {
 .hero-cont-button:focus,
 .hero-cont-button:active {
   background: #404bbf;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* Team */
