@@ -89,6 +89,7 @@ button {
 .header-flex {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -116,12 +117,12 @@ button {
 .menu-list,
 .address-list {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .menu-list-item {
+  display: block;
   color: var(--navy-blue);
   font-weight: 500;
   padding: 24px 0;
