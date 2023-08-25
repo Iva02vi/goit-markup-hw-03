@@ -214,12 +214,12 @@ button {
 
 /* Portfolio */
 .portf-card {
-  border: 1px solid var(--cornflower);
   background: var(--white);
   width: calc((100% - 4 * 24px) / 3);
 }
 
 .portf-card-info {
+  border: 1px solid var(--cornflower);
   padding: 32px 16px;
 }
 
