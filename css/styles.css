@@ -124,6 +124,7 @@ button {
 .menu-list-item {
   color: var(--navy-blue);
   font-weight: 500;
+  padding: 24px 0;
 }
 
 .menu-list-item:hover,
