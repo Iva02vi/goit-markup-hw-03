@@ -67,6 +67,11 @@ button {
   margin-bottom: 72px;
 }
 
+.card-list {
+  display: flex;
+  gap: 24px;
+}
+
 .card-title {
   color: var(--navy-blue);
   font-size: 20px;
@@ -200,11 +205,6 @@ button {
 /* Team */
 .team-container {
   background: var(--cloud);
-}
-
-.team-card-list {
-  display: flex;
-  gap: 24px;
 }
 
 .team-card {
